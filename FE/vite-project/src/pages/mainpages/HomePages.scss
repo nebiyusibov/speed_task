@@ -1,0 +1,217 @@
+.img_section{
+    position: relative;
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-3.jpg.webp");
+    min-height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img_main_div{
+        color: white;
+       p{
+        font-size: clamp(2.5rem, -2.9688rem + 17.5vw, 6.875rem);
+        font-weight: 700;
+       }
+       span{
+        display: flex;
+        justify-content: end;
+        font-weight: bold;
+       }
+    }
+}
+
+.year_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    row-gap: 50px;
+
+    .div_top{
+        display: flex;
+        justify-content: center;
+        font-size: 55px;
+    }
+    .div_bottom{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 50px;
+        width: 60%;
+        text-align: center;
+        div{
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+            p{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            span{
+                font-size: 20px;
+            }
+        }
+    }
+}
+.testimon_section{
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/review-bg.jpg.webp");
+    min-height: 650px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    .testimon_main_div{
+        display: flex;
+        flex-direction: column;
+        row-gap: 100px;
+        width: 60%;
+        .first_p{
+            font-size: 50px;
+            text-align: center;
+        }
+        .second_p{
+            text-align: center;
+            font-size: 20px;
+        }
+        .third_p{
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+}
+.services_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    row-gap: 80px;
+
+    .services_top{
+        display: flex;
+        justify-content: center;
+        font-size: 55px;
+    }
+    .services_bottom{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 50px;
+        width: 70%;
+        text-align: center;
+        div{
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+            p{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            span{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+.fetch_section{
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg.webp");
+    background-size: cover;
+    min-height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 50px;
+    }
+    .user{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+       font-size: 30px;
+       color: white;
+    }
+}
+@media screen and (max-width: 1000px){
+    .year_section{
+    
+        .div_bottom{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            width: 90%;
+        }
+    }
+    .testimon_section{
+        .testimon_main_div{
+            display: flex;
+            flex-direction: column;
+            row-gap: 100px;
+            width: 85%;
+        }
+    }
+    .services_section{
+        .services_top{
+            display: flex;
+            justify-content: center;
+            font-size: 55px;
+        }
+        .services_bottom{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 50px;
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .year_section{
+        min-height: 800px;    
+        .div_bottom{
+            display: grid;
+            grid-template-columns: auto ;
+            gap: 50px;
+            width: 80%;
+        }
+    }
+}
+@media screen and (max-width: 770px){
+    .img_section{
+        position: relative;
+        background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-3.jpg.webp");
+        min-height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .img_main_div{
+            color: white;
+           p{
+            font-size: clamp(2.5rem, -2.9688rem + 17.5vw, 6.875rem);
+            font-weight: 700;
+           }
+           span{
+            display: flex;
+            justify-content: end;
+            font-weight: bold;
+           }
+        }
+    }
+    .services_section{
+        .services_top{
+            display: flex;
+            justify-content: center;
+            font-size: 55px;
+        }
+        .services_bottom{
+            display: grid;
+            grid-template-columns: auto ;
+            gap: 50px;
+            width: 90%;
+        }
+    }
+}
