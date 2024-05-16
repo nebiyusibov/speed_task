@@ -1,10 +1,12 @@
-import React from 'react'
+import { Link } from "react-router-dom"
+import "./AdminNavbar.scss"
 
 function AdminNavbar() {
   return (
-    <div>
+    <div className="adminnavbar">
       <ul>
-        <li></li>
+        <li><Link to={"/adminlayout"}>AdminPanel</Link></li>
+        <li><Link to={"/adminlayout/add"}>Add</Link></li>
       </ul>
     </div>
   )

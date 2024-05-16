@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import "./MainNavbar.scss"
 
@@ -18,9 +17,9 @@ function MainNavbar() {
                 </ul>
             </div>
             <div className='nav_div_right'>
-                <p>Reservations <i class="fa-solid fa-phone"></i>  652-345 3222 11</p>
+                <p>Reservations <i className="fa-solid fa-phone"></i>  652-345 3222 11</p>
             </div>
-            <i class="fa-solid fa-bars"></i>
+            <i className="fa-solid fa-bars"></i>
         </nav>
     </header>
   )
